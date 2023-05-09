@@ -17,8 +17,9 @@ window.cap1 = cap1;
 const team = players;
 
 // create a copy of players
-const team1 = [...players];
+const team1 = ["John", "Bob", "Alice", "Poppy"];
 
 // create a copy of person object
-const cap1 = { ...person };
+const cap1 = {name: "John Doe",
+  age: 80, };
 
