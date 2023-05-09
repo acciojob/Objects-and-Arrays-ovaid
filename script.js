@@ -14,11 +14,11 @@ window.team1 = team1;
 window.cap1 = cap1;
 
 // create a reference to players
-let team = players;
+const team = players;
 
 // create a copy of players
-let team1 = [...players];
+const team1 = [...players];
 
 // create a copy of person object
-let cap1 = { ...person };
+const cap1 = { ...person };
 
